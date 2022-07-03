@@ -54,4 +54,3 @@ FROM t0 LATERAL VIEW explode(c3) adTable AS clave, valor
 GROUP BY clave
 ORDER BY clave;
 
-#prueba
